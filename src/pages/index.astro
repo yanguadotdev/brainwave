@@ -1,11 +1,15 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import ButtonGradient from '../assets/svg/ButtonGradient'
+import Header from '../components/Header'
+import Layout from '../layouts/Layout.astro'
+import { Hero } from '../sections/Hero.tsx'
 ---
 
 <Layout>
-	<Welcome />
+  <div class="overflow-hidden pt-[4.75rem] lg:pt-[5.25rem]">
+    <Header />
+    <Hero client:load />
+  </div>
+
+  <ButtonGradient />
 </Layout>
