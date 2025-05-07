@@ -1,48 +1,35 @@
-# Astro Starter Kit: Basics
+# 🧠 Brainwave
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+**Brainwave** is a practice-based landing page project built with **Astro**, **React**, **Tailwind CSS**, and **TypeScript**. The goal of this project is to improve my frontend development skills by focusing on clean structure, animation, responsive design, and performance optimization.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![Brainwave Hero](./public/screenshot.jpg)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Project Goals
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- Practice building modern layouts using semantic HTML and utility-first CSS.
+- Integrate React components within an Astro project.
+- Implement smooth, high-performance animations.
+- Learn best practices for accessibility, SEO, and web performance.
 
-## 🚀 Project Structure
+## 🛠️ Tech Stack
 
-Inside of your Astro project, you'll see the following folders and files:
+- [Astro](https://astro.build/) – Static site generator with modern performance.
+- [React](https://reactjs.org/) – For dynamic and reusable UI components.
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling framework.
+- [TypeScript](https://www.typescriptlang.org/) – Static typing for better dev experience.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
+## 🧪 Project Status
 
-All commands are run from the root of the project, from a terminal:
+🟡 **In progress** — actively developing UI components, animations, and page sections.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## 📚 Learning Outcomes
 
-## 👀 Want to learn more?
+- How to structure a hybrid Astro + React + TypeScript project.
+- Improved layout and responsive design skills with Tailwind.
+- Performance-first approach to building landing pages.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+Feel free to clone or explore this project as inspiration for your own landing pages.
