@@ -2,6 +2,7 @@
 import ButtonGradient from '../assets/svg/ButtonGradient'
 import Header from '../components/Header'
 import Layout from '../layouts/Layout.astro'
+import Benefits from '../sections/Benefits'
 import { Hero } from '../sections/Hero.tsx'
 ---
 
@@ -9,6 +10,7 @@ import { Hero } from '../sections/Hero.tsx'
   <div class="overflow-hidden pt-[4.75rem] lg:pt-[5.25rem]">
     <Header client:load />
     <Hero client:load />
+    <Benefits />
   </div>
 
   <ButtonGradient />
