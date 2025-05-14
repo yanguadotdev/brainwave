@@ -38,11 +38,18 @@
     --color-hue-13: #6C7275;
 
     --animate-pulse-expand: pulse-expand 800ms infinite;
-
+    --animate-marquee: marquee 20s linear infinite;
+    
     @keyframes pulse-expand {
         to {
             transform: scale(1.8);
             opacity: 0;
+        }
+    }
+
+    @keyframes marquee {
+        to {
+            transform: translateX(-100%);
         }
     }
 }
@@ -90,6 +97,10 @@
 
     .container {
         @apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem];
+    }
+
+    .tagline {
+        @apply font-grotesk font-light text-xs uppercase tracking-[.15em];
     }
 }
 
