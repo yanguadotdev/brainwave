@@ -34,7 +34,7 @@ export default function ClientsSlider({ className }: ClientsSliderProps) {
                         <img
                             key={index}
                             src={logo.src}
-                            className="grayscale hover:transform-[scale(1.2)_rotate(5deg)] odd:hover:transform-[scale(1.2)_rotate(-5deg)] h-8 w-auto max-w-max transition-transform duration-300 ease-[cubic-bezier(.33,-0.09,.65,1.27)] inline-block mx-8 hover:grayscale-0"
+                            className="grayscale hover:transform-[scale(1.2)_rotate(5deg)] odd:hover:transform-[scale(1.2)_rotate(-5deg)] h-8 w-auto max-w-max transition-transform duration-300 ease-[cubic-bezier(.33,-0.09,.65,1.27)] inline-block mx-8 hover:grayscale-0 drop-shadow-[0_0_.5px_white]"
                         />
 
                     ))}
