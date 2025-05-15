@@ -17,7 +17,7 @@ const Benefits = () => {
                 <div className="flex flex-wrap gap-10 mb-10 justify-center">
                     {benefits.map((item) => (
                         <div
-                            className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+                            className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:scale-105 transition-transform duration-300"
                             style={{
                                 backgroundImage: `url(${item.backgroundUrl})`,
                             }}
