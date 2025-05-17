@@ -28,6 +28,7 @@ export default function Pricing () {
                 </div>
 
                 <Heading
+                    className="text-center"
                     tag="Get started with Brainwave"
                     title="Pay once, use forever"
                 />
