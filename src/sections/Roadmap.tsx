@@ -8,9 +8,9 @@ import { Gradient } from "../components/Design/Roadmap";
 
 export default function Roadmap() {
   return (
-    <Section className="overflow-hidden" id="roadmap">
+    <Section className="overflow-hidden mt-24" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
+      <Heading className="text-center" tag="Ready to get started" title="What we’re working on" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmapCopy.map((item) => {

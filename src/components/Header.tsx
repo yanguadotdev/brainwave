@@ -12,6 +12,7 @@ const Header = () => {
 
     const toggleNavigation = () => {
         setOpenNavigation(!openNavigation);
+        document.body.classList.toggle("overflow-hidden");
     };
 
     const handleClick = () => {

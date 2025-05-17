@@ -11,7 +11,7 @@ import Generating from "../components/Generating";
 
 const Services = () => {
     return (
-        <Section id="how-to-use">
+        <Section id="how-to-use" className="mt-24">
             <div className="container">
                 <Heading
                     title="Generative AI made for creators."
